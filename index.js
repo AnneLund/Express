@@ -1,9 +1,10 @@
+//Efter at have installeret express (npm i express), importerer jeg den til projektet
 import express from 'express';
 
 //Jeg deklarerer en variabel der påkalder serveren fra express
 const app = express();
 
-//Der skal lyttes efter port 4242, så mine undersider kan vises herpå i browseren
+//Der skal lyttes efter port 4242, så mine undersider kan vises i browseren (node index.js)
 app.listen(4242, () => {
     console.log("Express server kører....");
 });
